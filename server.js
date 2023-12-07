@@ -4,13 +4,15 @@ import {ApolloServerPluginLandingPageGraphQLPlayground} from "apollo-server-core
 const typeDefs = gql`
 type Query{
     greet: String,
+    users_count: Int
 
 }
 `
 // Resolvers
 const resolvers = {
     Query:{
-        greet: ()=>"Hello World!"
+        greet: ()=>"Hello World!",
+        users_count: ()=>56
     }
 }
 
