@@ -2,7 +2,7 @@
   "name": "nodegraphql",
   "version": "1.0.0",
   "description": "",
-  "type": "module",
+  "type":"module",
   "main": "server.js",
   "scripts": {
     "start": "nodemon server.js",
